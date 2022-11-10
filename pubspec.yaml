@@ -39,8 +39,13 @@ dependencies:
   cupertino_icons: ^1.0.2
   firebase_auth: ^4.1.0
   google_sign_in: ^5.4.2
+  flutter_easyloading: ^3.0.5
   barcode_scan2: ^4.2.1
   get: ^4.6.5
+  ionicons: ^0.2.1
+  cloud_firestore: ^4.0.2
+
+
 
 dev_dependencies:
   flutter_test:
