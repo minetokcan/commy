@@ -28,7 +28,8 @@ class HomeController extends GetxController {
   }
 
   void scan() async {
-    var result = await BarcodeScanner.scan();
+    var result = await BarcodeScanner.scan(options: const ScanOptions(useCamera: 1));
+
     final str = result.rawContent;
     if (str.isNotEmpty) {
       barcodController.text = result.rawContent;
